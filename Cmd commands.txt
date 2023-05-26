@@ -1,0 +1,61 @@
+Microsoft Windows [Version 10.0.22621.1702]
+(c) Microsoft Corporation. All rights reserved.
+
+D:\WAD\Pract>npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help init` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (pract)
+Sorry, name cannot contain leading or trailing spaces and name can only contain URL-friendly characters.
+package name: (pract)
+version: (1.0.0)
+description: This is Wad practical 3
+entry point: (index.js)
+test command:
+git repository:
+keywords:
+author: Yash B
+license: (ISC)
+About to write to D:\WAD\Pract\package.json:
+
+{
+  "name": "pract",
+  "version": "1.0.0",
+  "description": "This is Wad practical 3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yash B",
+  "license": "ISC"
+}
+
+
+Is this OK? (yes)
+npm notice
+npm notice New minor version of npm available! 9.5.1 -> 9.6.7
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v9.6.7
+npm notice Run npm install -g npm@9.6.7 to update!
+npm notice
+
+D:\WAD\Pract>npm install express --save
+
+added 58 packages, and audited 59 packages in 26s
+
+8 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+D:\WAD\Pract>node index.js
+Server is Started
+
+
+
